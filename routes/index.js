@@ -14,5 +14,13 @@ router.get('/about', function(req, res, next) {
 router.get('/work', function(req, res, next) {
 	res.render('work', { title: 'work' });
 });
-
+router.get('/project_camito', function(req, res, next) {
+	res.render('project_camito', { title: 'project_camito' });
+});
+router.get('/project_uxui', function(req, res, next) {
+	res.render('project_uxui', { title: 'project_uxui' });
+});
+router.get('/project_odi', function(req, res, next) {
+	res.render('project_odi', { title: 'project_odi' });
+});
 module.exports = router;
